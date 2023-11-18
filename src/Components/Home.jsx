@@ -20,14 +20,17 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
+import React from "react";
+import PropTypes from "prop-types";
 import image from "../images/ahsan.jpg";
+import arrowSvg from "path/to/arrowSvg"; // Make sure to provide the correct path
 
 const imageAltText = "Picture of Ahsan Siddiqui";
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height">
-      <img className="background" src={image} alt="" style={{ width: '100%' }} />
+    <section id="home" className="min-height" style={{ position: "relative" }}>
+      <img className="background" src={image} alt={imageAltText} style={{ width: "100%", height: "auto" }} />
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
