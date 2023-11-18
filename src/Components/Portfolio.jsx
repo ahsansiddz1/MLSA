@@ -1,27 +1,9 @@
-/**
- * Portfolio component
- *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
- *
- * This is a great area for you to to continually add to and refine
- * as you continue to learn and create.
- */
+
 
 import React from "react";
+import image from "../images/siddz.jpg";
 
-/**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
-import image from "../images/design-desk.jpeg";
-
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Ahsan Siddz Picture";
 
 /**
  * Project list
@@ -31,28 +13,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: " Designed a website for a softwTalking Canvas - Designed UI/UX ",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Talking Canvas Began As A Portrait Studio With The Ambition Of Communicating An Image's Energy Through Imaginative Means.",
+    url: "https://thetalkingcanvas.com/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "My All social accounts and portfolio",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "My Linktr.ee profile",
+    url: "https://linktr.ee/ahsansiddz",
   },
   {
-    title: "My Resume Site",
+    title: "My Portfolio WebSite",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Includes my experience and design abilities.",
+    url: "https://ahsansiddz1.github.io/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "How To become an MLSA",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Demo Video interview for MLSA",
+    url: "https://www.youtube.com/watch?v=SxTfT9QqSpY&t=48s",
   },
 ];
 
